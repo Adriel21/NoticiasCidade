@@ -1,0 +1,47 @@
+body {
+	background: #fff;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#topo {
+	width: auto;
+	height: 233px;
+	background: url(../imagens/fundo.png) repeat-x left top;
+	margin: -10px;
+}
+
+#cabecalho {
+	margin: 0 auto;
+	width: 920px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo {
+	float: left;
+	width: 120px;
+	height: 55px;
+	margin: 10px;
+}
+
+#logo-brasil {
+	float: right;
+}
+
+#links {
+	clear: both;
+	margin: 20px;
+}
+
+a {
+	color: #fff;
+	background: #8D1919;
+	float: left;
+	padding: 10px 15px; 
+	text-decoration: none;
+}
+
+/* Links quando passa o cursor por cima */
+a:hover{
+	background: #CE2222;
+}
