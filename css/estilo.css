@@ -1,47 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #fff;
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(../imagens/fundo.png) repeat-x left top;
 }
 
 #topo {
-	width: auto;
-	height: 233px;
-	background: url(../imagens/fundo.png) repeat-x left top;
-	margin: -10px;
+	height: 150px;
+	padding: 25px;
+	background: url(../imagens/detalhe-topo.png) right no-repeat;
 }
 
-#cabecalho {
+#body {
+	width: 900px;
 	margin: 0 auto;
-	width: 920px;
-	background: url(../imagens/detalhe-topo.png) no-repeat right top;
 }
 
-#logo {
+.conteudo {
+	margin-top: 40px;
+}
+
+#principal {
+	background: red;
+	margin: 0 0 0 205px;
+	width: 390px;
 	float: left;
-	width: 120px;
-	height: 55px;
-	margin: 10px;
 }
 
-#logo-brasil {
-	float: right;
+#secundario {
+	background: blue; 
+	margin: 0 0 0 15px;
+	width: 290px;
+	float: left;
 }
 
-#links {
-	clear: both;
-	margin: 20px;
+#lateral {
+	background: green;
+	margin: 0 0 0 -900px;
+	width: 190px;
+	float: left;
 }
 
-a {
+#rodape {
+	margin-top: 80px;
+	background: #294c71;
+	line-height: 60px;
 	color: #fff;
+	text-align: center;
+	clear: both;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	margin: 10px;
+	background: url(../imagens/logo.png) no-repeat;
+	text-indent: -6000px;
+}
+
+#topo ul {
+	margin-top: 25px;
+	list-style: none;
 	background: #8D1919;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	color: #fff;
 	float: left;
 	padding: 10px 15px; 
 	text-decoration: none;
+	display: block;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
 }
 
 /* Links quando passa o cursor por cima */
-a:hover{
+#topo ul a:hover{
 	background: #CE2222;
+	color: #660000;
 }
+
+body.home .menu-superior a#home,
+body.brasil .menu-superior a#brasil,
+body.internacional .menu-superior a#internacional,
+body.fotos .menu-superior a#fotos {
+	background: #CE2222;
+	color: #fff;
+}
+
+
+
