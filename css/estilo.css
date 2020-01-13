@@ -168,3 +168,19 @@ input.submit {
 	background-color: #b10333;
 	border: 2px solid #870529;
 }
+
+img {
+	border: 2px solid #dfdfdf;
+}
+.destaque img {
+	margin-top: 7px;
+}
+
+.destaque h3 {
+	text-transform: uppercase;
+	background-color: #b10333;
+	color: white;
+	display: inline;
+	padding: 3px;
+	font-size: 0.9em;
+}
